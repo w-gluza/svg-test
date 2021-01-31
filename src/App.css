@@ -1,36 +1,35 @@
 .map{
-  /* height: 600px; */
+  height: 600px;
   position: fixed;
   z-index: -1;
-  width: 60%;
+  width: 600px;
+  /* width: 100%; */
 }
 
 
-.path {
+/* .path {
   stroke-dasharray: 1800;
-  /* stroke-dashoffset: 1800; */
   animation: dash 5s linear;
-}
+} */
 
-@keyframes dash {
+/* @keyframes dash {
   from {
-    /* stroke-dashoffset: var(--theNumber); */
     stroke-dashoffset: 80%;
 
   }
   to {
     stroke-dashoffset:0;
   }
-}
+} */
 
-.btn {
+/* .btn {
   background-color: var(--btn-bg-color);
   color: var(--btn-color);
   
   padding: 15px 30px;
   border: none;
   cursor: pointer;
-}
+} */
 
 .container {
   display: grid;
@@ -48,6 +47,27 @@ article{
   padding: 20px;
 }
 
-h2 {
+/* h2 {
   color: red;
+} */
+
+
+body {
+  /* feel free to change height */
+  height: 5000px;
+  background: linear-gradient(
+    to bottom,
+    orange,
+    darkblue
+  );
 }
+
+
+/* .star-svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+} */
